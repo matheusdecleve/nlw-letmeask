@@ -20,6 +20,12 @@
     filter: brightness(0.95);
   }
 
+  &.outlined {
+    background: #FFF;
+    border: solid 1px #835afd;
+    color: #835afd;
+  }
+
   &:disabled {
     opacity: 0.6;
     cursor: not-allowed;
