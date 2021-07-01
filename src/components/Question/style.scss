@@ -35,6 +35,11 @@
       }
     }
 
+    .question-buttons {
+      display: flex;
+      gap: 12px;
+    }
+
     button {
       border: 0;
       background: transparent;
@@ -61,4 +66,20 @@
       }
     }
   }
+
+  &.highlighted {
+    background: #f4f0ff;
+    border: solid 1px #835afd;
+
+    footer .user-info span {
+      color: #29292e;
+    }
+  }
+
+  &.answered {
+    background: #DBDCDD;
+
+    
+  }
+
 }
